@@ -1,0 +1,75 @@
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    justify-content: space-between;
+}
+
+.main__info{
+    width: 100%;
+    max-width: 570px;
+}
+
+.main__info p{
+   font-size: 18px;
+   margin: 20px 0 28px; 
+}
+
+.main__info div{
+    display: flex;
+    column-gap: 32px;
+}
+
+.main__info div a, .main__info div button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+    /*transform: skew(-10deg);*/
+}
+
+/*.main__info div a:hover{
+    transform: scale(1.15);
+    transform-origin: center;
+    transition: all 0.3s;
+}*/
+
+.butao:hover{
+    scale: 1.15;
+    transition: all 0.4s;
+    transform: scale(1.15);
+    transform-origin: center;
+    transition: all 0.3s;
+}
+
+.butao2:hover{
+    scale: 1.15;
+    transition: all 0.4s;
+    transform: scale(1.15);
+    transform-origin: center;
+    transition: all 0.3s;
+}
+
+
+/*.main__info div button:hover {
+    transform: scale(1.15);
+    transform-origin: center;
+    transition: all 0.3s;
+}*/
+
+.main__info a{
+    background: var(--red);
+}
+
+.main__info div button {
+    background: transparent;
+    border: 1px solid var(--green);
+}
